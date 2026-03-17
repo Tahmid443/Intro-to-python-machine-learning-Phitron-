@@ -1,0 +1,8 @@
+inp = input()
+numbers = inp.split()
+x = int(numbers[0])
+y = int(numbers[1])
+z = int(numbers[2])
+max = max(x,y,z)
+min = min(x,y,z)
+print(min,max)
